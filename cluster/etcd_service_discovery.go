@@ -415,7 +415,7 @@ func parseServer(value []byte) (*Server, error) {
 	var sv *Server
 	err := json.Unmarshal(value, &sv)
 	if err != nil {
-		log.Warning("failed to load server %s, error: %s", sv, err.Error())
+		log.Warning("failed to load server %v, error: %v", sv, err.Error())
 		return nil, err
 	}
 	return sv, nil
@@ -575,7 +575,7 @@ func (sd *etcdServiceDiscovery) SyncServers(firstSync bool) error {
 	servers := parallelGetter.waitAndGetResult()
 
 	for _, server := range servers {
-		log.Debug("adding server %s", server)
+		log.Debug("adding server %v", server)
 		sd.addServer(server)
 	}
 
