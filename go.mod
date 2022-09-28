@@ -4,12 +4,16 @@ go 1.17
 
 require (
 	github.com/gogo/protobuf v1.3.2
+	github.com/gomodule/redigo v1.8.9
 	github.com/json-iterator/go v1.1.12
+	github.com/nats-io/nats-server/v2 v2.8.4
 	github.com/qiniu/qmgo v1.1.2
+	github.com/spf13/viper v1.8.1
 	github.com/stretchr/testify v1.7.0
 	github.com/tangeping/Galia v0.0.0-20220927091300-3f5dea2fef3d
 	github.com/topfreegames/pitaya/v2 v2.2.0
 	go.etcd.io/etcd/client/v3 v3.6.0-alpha.0
+	go.etcd.io/etcd/tests/v3 v3.6.0-alpha.0
 )
 
 require (
@@ -46,10 +50,8 @@ require (
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/nats-io/jwt/v2 v2.2.1-0.20220330180145-442af02fd36a // indirect
-	github.com/nats-io/nats-server/v2 v2.8.4 // indirect
 	github.com/nats-io/nkeys v0.3.0 // indirect
 	github.com/nats-io/nuid v1.0.1 // indirect
-	github.com/opentracing/opentracing-go v1.2.0 // indirect
 	github.com/pelletier/go-toml v1.9.3 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
@@ -63,7 +65,6 @@ require (
 	github.com/spf13/cast v1.3.1 // indirect
 	github.com/spf13/jwalterweatherman v1.1.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
-	github.com/spf13/viper v1.8.1 // indirect
 	github.com/subosito/gotenv v1.2.0 // indirect
 	github.com/tmc/grpc-websocket-proxy v0.0.0-20201229170055-e5319fda7802 // indirect
 	github.com/xdg-go/pbkdf2 v1.0.0 // indirect
@@ -78,7 +79,6 @@ require (
 	go.etcd.io/etcd/pkg/v3 v3.6.0-alpha.0 // indirect
 	go.etcd.io/etcd/raft/v3 v3.6.0-alpha.0 // indirect
 	go.etcd.io/etcd/server/v3 v3.6.0-alpha.0 // indirect
-	go.etcd.io/etcd/tests/v3 v3.6.0-alpha.0 // indirect
 	go.mongodb.org/mongo-driver v1.9.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.26.1 // indirect
 	go.opentelemetry.io/otel v1.2.0 // indirect
