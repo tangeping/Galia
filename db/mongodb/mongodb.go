@@ -20,3 +20,10 @@ func NewModel(cfg *qmgo.Config, opt ...options.ClientOptions) (*Model, error) {
 		cli: client,
 	}, nil
 }
+
+func (m *Model) Version() string {
+	if m.cli == nil {
+		return ""
+	}
+	return m.cli.ServerVersion()
+}
