@@ -1,9 +1,9 @@
 package processor
 
 import (
+	"Galia/network"
 	"encoding/json"
 	"fmt"
-	"github.com/tangeping/Galia/network"
 	"reflect"
 )
 

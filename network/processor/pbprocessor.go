@@ -1,10 +1,10 @@
 package processor
 
 import (
+	"Galia/network"
 	"encoding/binary"
 	"fmt"
 	"github.com/gogo/protobuf/proto"
-	"github.com/tangeping/Galia/network"
 	"reflect"
 )
 

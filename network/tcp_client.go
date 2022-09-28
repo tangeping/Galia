@@ -1,7 +1,7 @@
 package network
 
 import (
-	"github.com/tangeping/Galia/log"
+	"Galia/log"
 	"net"
 	"sync"
 	"time"

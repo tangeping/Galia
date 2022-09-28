@@ -1,8 +1,8 @@
 package network
 
 import (
+	"Galia/log"
 	"crypto/tls"
-	"github.com/tangeping/Galia/log"
 	"net/http"
 	"time"
 )
